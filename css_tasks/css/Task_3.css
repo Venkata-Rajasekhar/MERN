@@ -2,6 +2,10 @@
     margin: auto;
     margin-top: 50px;
 }
+.body{
+    background: url('../../Assets/bg_main.jpg') no-repeat;
+    opacity: 0.5;
+}
 
 table {
     border-collapse: separate;

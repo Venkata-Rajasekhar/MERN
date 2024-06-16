@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+.body{
+    background: url('../../Assets/bg_main.jpg') no-repeat;
+    opacity: 0.5;
+}
 
 body {
     background: #fff;

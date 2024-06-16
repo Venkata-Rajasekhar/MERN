@@ -4,6 +4,10 @@ body, html {
     font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;
 }
+.body{
+    background: url('../../Assets/bg_main.jpg') no-repeat;
+    opacity: 0.5;
+}
 
 div.container {
     height: 140%;

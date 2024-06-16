@@ -1,6 +1,10 @@
 body, html{
     font-family: 'Times New Roman', Times, serif;
 }
+.body{
+    background: url('../../Assets/bg_main.jpg') no-repeat;
+    opacity: 0.5;
+}
 *
 {
     margin: 0;
