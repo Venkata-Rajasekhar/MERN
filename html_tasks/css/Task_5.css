@@ -1,5 +1,6 @@
 body, html{
     font-family: 'Times New Roman', Times, serif;
+
 }
 table.center{
     margin-left: auto;
@@ -22,7 +23,7 @@ p#id2{
     width: 200%;
 }
 .cool-button {
-    background: linear-gradient(45deg, #0077FF, #00BBFF);
+    background: linear-gradient(65%, #0077FF, #00BBFF);
     padding: 12px 22px;
     border: none;
     border-radius: 25px;
