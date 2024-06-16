@@ -4,9 +4,10 @@
   <title>JS Task 4</title>
 </head>
 <body>
-<div>
+  <div>
+    <div>
     <button onclick="showDate()">Show Date</button>
-</div>
+  </div>
 <p id="dateDisplay"></p>
 <br/>
 
@@ -32,7 +33,8 @@
     const currentIST = new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata', ...options });
     document.getElementById('timeDisplay').innerText = `${currentIST}`;
   }
-</script>
 
+</script>
+</div>
 </body>
 </html>
