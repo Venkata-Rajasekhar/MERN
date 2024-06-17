@@ -20,7 +20,7 @@ h5 {
 
 .outer {
     position: relative;
-    height: auto;
+    height: 15rem;
     width: auto;
 }
 
@@ -39,6 +39,7 @@ h5 {
 
 .outer:hover .inner {
     display: block;
+    height: 15rem;
 }
 
 .linkbtn {
