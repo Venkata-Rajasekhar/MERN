@@ -20,6 +20,13 @@ body {
     background: url('../../Assets/bg_main.jpg') no-repeat;
     opacity: 0.5;
 }
+body {
+	background-image: url("../../Assets/bg_main.jpg");
+	background-size: cover; 
+	background-position: center;
+	margin: 0; 
+	padding: 0; 
+}
 .container {
 	background-color: rgb(227, 226, 226);
 	border-radius: 5px;

@@ -8,12 +8,19 @@
     opacity: 0.5;
 }
 
+
 body {
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+body {
+    background-image: url("../../Assets/bg_main.jpg");
+    background-size: cover; 
+    background-position: center;
+    margin: 0; 
+    padding: 0; 
 }
 
 .title-container {

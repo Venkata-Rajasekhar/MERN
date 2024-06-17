@@ -1,0 +1,47 @@
+
+body {
+    background-image: url("../../Assets/bg_main.jpg");
+    background-size: cover; 
+    background-position: center; 
+    margin: 0; 
+    padding: 0; 
+  }
+.car-container {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: flex-start; 
+margin-top: 50px;
+height: 300px; 
+}
+
+#car {
+width: 100px;
+position: relative;
+animation: carAnimation 2s linear infinite;
+}
+
+@keyframes carAnimation {
+0% {
+  top: -100px; 
+}
+100% {
+  top: 100%; 
+}
+}
+body {
+    background-image: url("../../Assets/bg_main.jpg");
+    background-size: cover; 
+    background-position: center;
+    margin: 0; 
+    padding: 0; 
+}
+#id1 {
+  text-align: left;
+  margin-top: 20px;
+}
+
+h2 {
+  color: blue;
+  text-align: left;
+}

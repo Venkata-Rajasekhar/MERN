@@ -20,7 +20,7 @@ h5 {
 
 .outer {
     position: relative;
-    height: 5rem;
+    height: 15rem;
     width: auto;
 }
 
@@ -36,10 +36,16 @@ h5 {
     left: 0;
     display: none;
 }
-
+body {
+    background-image: url("../../Assets/bg_main.jpg");
+    background-size: cover; 
+    background-position: center;
+    margin: 0; 
+    padding: 0; 
+}
 .outer:hover .inner {
     display: block;
-    height: 5rem;
+    height: 15rem;
 }
 
 .linkbtn {

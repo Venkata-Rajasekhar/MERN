@@ -18,6 +18,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 article {
     width: 60%; /* Reduced from 70% */
     padding: 30px;
