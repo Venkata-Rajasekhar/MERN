@@ -4,63 +4,68 @@
   <title>JS Task 7</title>
   <style type="text/css">
 
-.train-container {
+.car-container {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: flex-start; 
   margin-top: 50px;
+  height: 300px; 
 }
 
-#train {
+#car {
   width: 100px;
   position: relative;
-  animation: trainAnimation 5s linear infinite;
+  animation: carAnimation 2s linear infinite;
 }
 
-@keyframes trainAnimation {
+@keyframes carAnimation {
   0% {
-    top: -100px;
+    top: -100px; 
   }
   100% {
-    top: 100%;
+    top: 100%; 
   }
 }
 
-#id1{
-    text-align: center;
+#id1 {
+    text-align: left;
+    margin-top: 20px;
 }
-h2{
-    color:blue;
+
+h2 {
+    color: blue;
+    text-align: left;
 }
 
     </style>
 </head>
 <body>
-  <div>
-  <div class="train-container">
-  <img src="../../Assets/bujji.png" alt="bujji" id="train">
+<div>
+<div class="car-container">
+  <img src="../../Assets/bujji.png" alt="Car" id="car">
 </div>
-<h2 style="text-align: center;">Click the following buttons to handle animation</h2>
+<h2>Click the following buttons to handle animation</h2>
 <br/>
 
-<div id = "id1">
-<button onclick="startTrain()">Start</button>
-<button onclick="stopTrain()">Stop</button>
+<div id="id1">
+<button onclick="startCar()">Start</button>
+<button onclick="stopCar()">Stop</button>
 </div>
 
 
 <script>
-    let trainElement;
-let trainAnimation;
+    let carElement;
+let carAnimation;
 
-function startTrain() {
-  trainElement = document.getElementById('train');
-  trainElement.style.animation = 'trainAnimation 5s linear infinite';
+function startCar() {
+  carElement = document.getElementById('car');
+  carElement.style.animation = 'carAnimation 2s linear infinite';
 }
 
-function stopTrain() {
-  trainElement = document.getElementById('train');
-  trainElement.style.animation = 'none';
+function stopCar() {
+  carElement = document.getElementById('car');
+  carElement.style.animation = 'none';
 }
 
 </script>
