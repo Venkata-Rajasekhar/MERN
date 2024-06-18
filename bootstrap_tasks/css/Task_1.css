@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+nav{
+    text-align: center;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: larger;
+
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(182, 182, 182);
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 25px;
+text-decoration: none;
+
+}
+#Sidebar {
+border:  solid grey;
+background-color: grey;
+color: white;
+float: right;
+text-align: center;
+padding-left: 120px;
+padding-right: 180px;
+padding-bottom: 550px;
+
+}
+
+p{
+text-align: center;
+}
