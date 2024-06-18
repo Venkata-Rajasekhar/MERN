@@ -19,6 +19,11 @@ section{
     background-position: center;
     animation: animateBg 8s linear infinite;
 }
+#h2{
+    color: black;
+    margin-top: 80px;
+    font-size: 24px;
+}
 
 @keyframes animateBg{
     100%{

@@ -72,6 +72,7 @@ img {
     transition: transform 0.3s; 
 }
 
+
 a:hover img {
     transform: scale(1.1); 
 }
