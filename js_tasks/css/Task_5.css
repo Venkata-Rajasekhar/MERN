@@ -6,6 +6,7 @@
   }
 body {
     background-image: url("../../Assets/bg_4k.jpg");
+      opacity: 0.5;
     background-size: cover; 
     background-position: center;
     margin: 0; 
